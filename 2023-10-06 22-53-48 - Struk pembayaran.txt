@@ -1,0 +1,19 @@
+===========================================
+BinarFud
+===========================================
+
+Terima kasih sudah memesan di BinarFud
+
+Dibawah ini adalah pesanan anda
+
+Nasi Rames cak Budi   7  105000Bakso Urat Mantul   8  80000----------------------------------------------------+
+    Total         15   185000
+----------------------------------------+
+Total           15  185000
+
+
+Pembayaran: BinarCash
+
+===========================================
+Simpan struk ini sebagai bukti pembayaran
+===========================================

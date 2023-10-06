@@ -1,0 +1,17 @@
+===========================================
+BinarFud
+===========================================
+
+Terima kasih sudah memesan di BinarFud
+
+Dibawah ini adalah pesanan anda
+
+Nasi Rames cak Budi   7  105000----------------------------------------+
+Total           7  105000
+
+
+Pembayaran: BinarCash
+
+===========================================
+Simpan struk ini sebagai bukti pembayaran
+===========================================
