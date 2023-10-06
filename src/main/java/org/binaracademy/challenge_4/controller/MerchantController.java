@@ -663,7 +663,7 @@ public class MerchantController {
             AtomicLong totalPrice = new AtomicLong();
             orders.forEach(order -> {
                 try {
-                    bwr.write(order.getOrderDetails().getProduct().getName()+ "   "+ order.getOrderDetails().getQuantity()+ "  "+order.getOrderDetails().getTotalPrice());
+                    bwr.write(order.getOrderDetails().getProduct().getName()+ "   "+ order.getOrderDetails().getQuantity()+ "  "+order.getOrderDetails().getTotalPrice()+"\n");
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
