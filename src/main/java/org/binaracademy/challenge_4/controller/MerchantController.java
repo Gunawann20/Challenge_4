@@ -228,7 +228,7 @@ public class MerchantController {
         }else {
             orders.forEach(order -> {
                 if (!order.getIsCompleted()){
-                    System.out.println(order.getId()+" | "+order.getOrderDetails().getProduct().getMerchant()+" - "+order.getOrderDetails().getProduct().getName()+" | waktu pesanan: "+ order.getTime()+" | status: Belum bayar");
+                    System.out.println(order.getId()+" - "+order.getOrderDetails().getProduct().getName()+" | waktu pesanan: "+ order.getTime()+" | status: Belum bayar");
                 }
             });
         }
@@ -670,9 +670,6 @@ public class MerchantController {
                 totalQty.addAndGet(order.getOrderDetails().getQuantity());
                 totalPrice.addAndGet(order.getOrderDetails().getTotalPrice());
             });
-            bwr.write("----------------------------------------------------+\n");
-            bwr.write("    Total         "+ totalQty+ "   "+ totalPrice+"\n");
-
             bwr.write("----------------------------------------+\n");
             bwr.write("Total"+"           "+totalQty+"  "+totalPrice+"\n\n\n");
             bwr.write("Pembayaran: BinarCash\n\n");
