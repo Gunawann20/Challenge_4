@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>org.binaracademy</groupId>
 	<artifactId>challenge_4</artifactId>
+	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>challenge_4</name>
 	<description>challenge_4</description>
@@ -45,6 +46,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+					<mainClass>org.binaracademy.challenge_4.Challenge4Application</mainClass>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
